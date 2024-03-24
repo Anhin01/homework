@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML 18</title>
+    <link rel="shortcut icon" href="html-logo.svg" type="image/x-icon">
+</head>
+
+<body>
+
+    <video src="video.mov" controls>Добавляет элементы управления для видео</video>
+
+    <video src="video.mov" controls loop>
+        Закончившись, начнется заново</video>
+
+    <video src="video.mov" controls autoplay muted>Запуск видео при открытии страницы</video>
+
+    <video src="video.mov" controls autoplay muted poster="html-logo.svg">Превью перед видео, разные размеры</video>
+
+    <video src="video.mov" controls poster="html-logo.svg" width="1024" height="600">Установка габаритов</video>
+
+    <p>
+        <video src="video.mov" controls poster="html-logo.svg" width="1024" height="600" preload="none">(прогружать ли
+            видео)Видео на будет загружаться автоматически при открытии страницы, ускоряет загрузку</video>
+    </p>
+    <p>
+        <video src="video.mov" controls poster="html-logo.svg" width="1024" height="600" preload="auto">При открытии
+            страницы, видео не запустится, но загрзится</video>
+    </p>
+    <p>
+        <video src="video.mov" controls poster="html-logo.svg" width="1024" height="600"
+            preload="metadata">Промежуточное</video>
+    </p>
+
+
+</body>
+
+
+</html>
